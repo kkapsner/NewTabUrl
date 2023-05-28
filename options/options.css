@@ -1,0 +1,46 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 1em;
+	padding: 0;
+	background-color: #333;
+	color: white;
+	min-height: 250px;
+	box-sizing: border-box;
+}
+.inTabbedView .hideInTabbedView {
+	display: none;
+}
+
+section {
+	margin-bottom: 0.5em;
+}
+
+#newTabURL {
+	display: block;
+	background-color: #444;
+	border: 1px solid #888;
+	padding: 0.2em;
+	margin: 0.1em;
+}
+
+.typeSection {
+	margin: 1em 0;
+}
+
+.urlEntry {
+	display: grid;
+	grid-template-columns: max-content auto;
+	column-gap: 0.3em;
+}
+#url {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 30em;
+}

@@ -1,0 +1,33 @@
+
+{
+	"name": "NewTabUrl",
+	"description": "__MSG_addon_description__",
+	"version": "1.0.0",
+	"icons": {
+		"48": "icons/icon.svg",
+		"96": "icons/icon.svg"
+	},
+	
+	"options_ui": {
+		"browser_style": true,
+		"page": "options/index.html"
+	},
+	"author": "Korbinian Kapsner",
+	"permissions": [
+		"storage",
+		"tabs"
+	],
+	"chrome_url_overrides" : {
+		"newtab": "newTab.html"
+	},
+	"content_security_policy": "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval'",
+	
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "NewTabUrl@kkapsner.de",
+			"strict_min_version": "68.0"
+		}
+	},
+	"default_locale": "en",
+	"manifest_version": 2
+}

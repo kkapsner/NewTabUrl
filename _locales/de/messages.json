@@ -1,0 +1,38 @@
+{
+	"addon_description": {
+		"message": "Ermöglicht es eine URL für neue Tabs zu setzen",
+		"description": ""
+	},
+	"options_new_window_message": {
+		"message": "Wenn Sie das gleiche Verhalten auch für neue Browserfenster haben wollen, können Sie die folgende URL als URL für neue Fenster verwenden:",
+		"description": ""
+	},
+	"options_title": {
+		"message": "Einstellungen für NewTabUrl",
+		"description": ""
+	},
+	"options_page_type":{
+		"message": "Art der Seite des neuen Tabs",
+		"description": ""
+	},
+	"options_page_type.url":{
+		"message": "URL",
+		"description": ""
+	},
+	"options_page_type.html":{
+		"message": "Eigenes HTML",
+		"description": ""
+	},
+	"options_url_description": {
+		"message": "URL:",
+		"description": ""
+	},
+	"options_html_description": {
+		"message": "HTML:",
+		"description": ""
+	},
+	"options_js_description": {
+		"message": "Auszuführendes JavaScript:",
+		"description": ""
+	}
+}

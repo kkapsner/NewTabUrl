@@ -1,0 +1,38 @@
+{
+	"addon_description": {
+		"message": "Enables the setting of the URL of the new tab",
+		"description": ""
+	},
+	"options_title": {
+		"message": "Settings for NewTabUrl",
+		"description": ""
+	},
+	"options_new_window_message": {
+		"message": "If you also want the same behaviour for new windows you can use the following URL as the new window URL:",
+		"description": ""
+	},
+	"options_page_type": {
+		"message": "Type of the new tab page",
+		"description": ""
+	},
+	"options_page_type.url": {
+		"message": "URL",
+		"description": ""
+	},
+	"options_page_type.html": {
+		"message": "Custom HTML",
+		"description": ""
+	},
+	"options_url_description": {
+		"message": "URL:",
+		"description": ""
+	},
+	"options_html_description": {
+		"message": "HTML:",
+		"description": ""
+	},
+	"options_js_description": {
+		"message": "JavaScript to be executed:",
+		"description": ""
+	}
+}

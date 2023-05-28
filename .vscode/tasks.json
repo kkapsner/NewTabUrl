@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "eslint",
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"label": "npm: eslint",
+			"detail": "eslint ./ --ext .js,.html"
+		},
+		{
+			"type": "npm",
+			"script": "run",
+			"problemMatcher": [],
+			"label": "npm: run",
+			"detail": "web-ext run -f firefox-nightly"
+		},
+		{
+			"type": "npm",
+			"script": "run current",
+			"problemMatcher": [],
+			"label": "npm: run current",
+			"detail": "web-ext run"
+		}
+	]
+}

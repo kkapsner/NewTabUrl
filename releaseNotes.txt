@@ -1,0 +1,5 @@
+Version 1.0.0
+	
+	new features:
+		- enables to set the url for a new tab
+		- new tab can alternatively display custom HTML (and execute custom JavaScript)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title class="translatable" data-message="options_title"></title>
+		<link rel="stylesheet" href="options.css" type="text/css">
+	</head>
+	<body>
+		<h1 class="translatable hideInTabbedView" data-message="options_title"></h1>
+		<section>
+			<span class="translatable" data-message="options_new_window_message"></span>
+			<output id="newTabURL"></output>
+		</section>
+		<label>
+			<span class="translatable" data-message="options_page_type"></span>
+			<select id="pageType">
+				<option class="translatable" value="URL" data-message="options_page_type.url"></option>
+				<option class="translatable" value="HTML" data-message="options_page_type.html"></option>
+			</select>
+		</label>
+		<section class="typeSection" data-type="URL">
+			<label class="urlEntry">
+				<span class="translatable" data-message="options_url_description"></span>
+				<input type="url" id="URL">
+			</label>
+		</section>
+		<section class="typeSection" data-type="HTML">
+			<div class="translatable" data-message="options_html_description"></div>
+			<textarea id="HTML"></textarea>
+			<div class="translatable" data-message="options_js_description"></div>
+			<textarea id="JS"></textarea>
+		</section>
+		<script src="options.js"></script>
+	</body>
+</html>
